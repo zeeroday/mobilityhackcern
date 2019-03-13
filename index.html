@@ -18,12 +18,12 @@
 <body>
 
 <div class="super_container">
-
+	
 	<!-- Header -->
 
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-start">
-
+			
 			<!-- Logo -->
 			<div class="logo">
 				<a href="#">
@@ -70,23 +70,7 @@
 							<li><a href="#">Nav Item</a></li>
 						</ul>
 					</li>
-					<li class="active">
-						<a href="#Prizes">Prizes</a>
-						<ul>
-							<li><a href="#">Nav Item</a></li>
-							<li class="has_children">
-								<a href="#">Nav Item</a>
-								<ul>
-									<li><a href="#">Nav Item</a></li>
-									<li><a href="#">Nav Item</a></li>
-									<li><a href="#">Nav Item</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Nav Item</a></li>
-							<li><a href="#">Nav Item</a></li>
-							<li><a href="#">Nav Item</a></li>
-						</ul>
-					</li>
+					<li><a href="#Prizes">Prizes</a></li>
 					<li><a href="#Contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -124,8 +108,7 @@
 					<ul class="d-flex flex-column align-items-center justify-content-start">
 						<li><a href="#Overview">Overview</a></li>
 						<li><a href="#Topics">Topics</a></li>
-						<li><a href="#Schedule">Schedule</a></li>
-						<li><a href="#Prizes">Prizes</a></li>
+						<li><a href="#Schedule">Schedule</a></li> 							<li><a href="#Prizes">Prizes</a></li>
 						<li><a href="#Contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -144,11 +127,11 @@
 	<!-- Home -->
 
 	<div class="home">
-
+		
 		<!-- Home Slider -->
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
-
+				
 				<!-- Slide -->
 				<div class="slide">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
@@ -191,13 +174,13 @@
 						<div class="col">
 							<div class="home_slider_dots">
 								<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
-
-
+								
+									
 								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>		
 			</div>
 
 		</div>
@@ -246,7 +229,8 @@
 						<div class="section_title"><h1>Overview</h1></div>
 					</div>
 
-					<div class="intro_text text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/n_XgSOedfzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="intro_text text-center"><video width="480" height="360" controls>
+  <source src="images/teaser_v2.mp4" type="video/mp4"></video>
 						<p>The Mobility Hackathon is a one day event that focuses on the intersection of digital technology and urbanization, in the context of Geneva. The aim of the hackathon is to bring together a diverse range of perspectives, and ignite the flow of ideas between different members of society in Geneva, from neighbouring regions, and from around the world. Specific challenges include car sharing in Geneva, simulating and improving traffic flow across the border with France and using Internet of Things to monitor traffic in Meyrin. Bring your own challenge, or pitch in to help another team!</p>
 					</div>
 					<div class="button button_2 intro_button"><a href="https://indico.cern.ch/event/791709/registrations/48408/"><span>Register<img src="images/arrow.png" alt=""></span></a></div>
@@ -328,7 +312,7 @@
 										<div class="tab_panel_content">
 											<div class="tab_title"><h3>04. CERN Autonomous Vehicles</h3></div>
 											<div class="tab_text">
-												<p>CERN Autonomous Vehicles : Simulating and improving traffic flow across the border with France using Internet of Things to monitor traffic in Meyrin.
+												<p>CERN Autonomous Vehicles : Simulating and improving traffic flow across the border with France using Internet of Things to monitor traffic in Meyrin. 
 The large influx of cars at CERN during the day overloads the parking in the area, leading to traffic issues for workers. This project aims to increase fluidity by providing autonomous vehicles that would manage the last part of employees’ itinerary towards their workplace, therefore allowing external parking to be used, relieving some of the stress put on circulation. The aims of the hackathon is to observe the effect of the autonomous vehicles on circulation in this specific setting to assert its usefulness as a solution to traffic on French-Swiss borders.
 </p>
 											</div>
@@ -531,7 +515,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 				</div>
 			</div>
 			<div class="row speakers_row">
-
+				
 				<!-- Speaker -->
 				<div class="col-xl-4 col-md-6">
 					<div class="speaker">
@@ -565,7 +549,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 					</div>
 				</div>
 
-				<!-- Speaker
+				<!-- Speaker 
 				<div class="col-xl-4 col-md-6">
 					<div class="speaker">
 						<div class="speaker_image"><img src="images/speaker_4.jpg" alt=""></div>
@@ -576,7 +560,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 					</div>
 				</div>
 
-				<!-- Speaker
+				<!-- Speaker 
 				<div class="col-xl-4 col-md-6">
 					<div class="speaker">
 						<div class="speaker_image"><img src="images/speaker_5.jpg" alt=""></div>
@@ -587,7 +571,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 					</div>
 				</div>
 
-				<!-- Speaker
+				<!-- Speaker 
 				<div class="col-xl-4 col-md-6">
 					<div class="speaker">
 						<div class="speaker_image"><img src="images/speaker_6.jpg" alt=""></div>
@@ -604,7 +588,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 
 	<!-- CTA -->
 
-	<div class="cta">
+	<div class="cta" id="Prizes">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg" data-speed="0.8"></div>
 		<div class="cta_overlay"></div>
 		<div class="container">
@@ -613,7 +597,7 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 					<div class="cta_content text-center">
 						<div class="cta_title text-center"><h1>Prizes</h1></div>
 						<div class="cta_text text-center">
-							<p>Jury will evaluate and select projects whose demo will get the opportunity to be presented at <bold><a href="https://aiforgood.itu.int/">AI for Good Summit</a><bold> and at the <bold> <bold><a href="https://www.hpe.com/emea_europe/en/about/executive-briefing-centers/geneva.html">innovation center of Hewlett Packard Enterprise (HPE)</a><bold><bold>.
+							<p>Jury will evaluate and select projects whose demo will get the opportunity to be presented at AI for Good Summit and at the innovation center of Hewlett Packard Enterprise (HPE).
 </p>
 						</div>
 						<div class="button button_3 cta_button"><a href="https://aiforgood.itu.int/"><span>see more<img src="images/arrow.png" alt=""></span></a></div>
@@ -664,13 +648,13 @@ By integrating autonomous robots to autonomous vehicles, it becomes possible to 
 							</form>
 						</div>
 					</div>
--->
+-->					
 					<!-- Gallery --
 					<div class="col-lg-4 footer_col">
 						<div class="footer_column">
 							<div class="footer_title">Instagram</div>
 							<div class="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
-
+						
 								<!-- Gallery Item --
 								<div class="gallery_item">
 									<a class="colorbox" href="images/gallery_1_large.jpg"><img src="images/gallery_1.jpg" alt=""></a>
